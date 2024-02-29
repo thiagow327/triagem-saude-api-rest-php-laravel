@@ -37,7 +37,7 @@ class PacienteController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        Paciente::find($id)->update($request->all());
     }
 
     /**
