@@ -29,7 +29,7 @@ class PacienteController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return Paciente::find($id);
     }
 
     /**
