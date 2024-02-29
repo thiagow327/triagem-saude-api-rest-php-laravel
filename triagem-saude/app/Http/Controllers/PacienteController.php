@@ -45,6 +45,6 @@ class PacienteController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        Paciente::destroy($id);
     }
 }
