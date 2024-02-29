@@ -21,7 +21,7 @@ class PacienteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Paciente::create($request->all());
     }
 
     /**
