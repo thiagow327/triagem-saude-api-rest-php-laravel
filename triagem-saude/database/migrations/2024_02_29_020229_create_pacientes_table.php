@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('nome');
             $table->integer('idade');
             $table->string('sexo');
-            $table->text('sintomas');
+            $table->string('sintomas');
             $table->string('pressao_arterial');
-            $table->decimal('temperatura', 5, 2);
+            $table->decimal('temperatura', 6, 2);
             $table->decimal('peso', 5, 2);
             $table->decimal('altura', 4, 2);
             $table->timestamps();
